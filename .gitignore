@@ -218,3 +218,6 @@ morning-newspaper/runtime_results/
 # 这样 Ch3 的 GitHub CI 能对真代码跑测试（详见 multi-file-refactor/README.md）。
 # 仅 Ch1 演示「为 app 生成 CLAUDE.md」的现场产物不入库，以免剧透该 demo：
 financial-automation/CLAUDE.md
+
+# Demo target real env (never commit; only .env.example is tracked)
+demo_target/.env
